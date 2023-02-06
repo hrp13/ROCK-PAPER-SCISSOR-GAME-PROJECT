@@ -1,0 +1,87 @@
+*{
+    background: skyblue;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3
+{
+    font-size: 30px;
+    font-weight: bold;  
+}
+ul li {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    height: 80px;
+    width: 140px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: royalblue;
+    color:whitesmoke;
+    border: solid 5px blue;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(62, 11, 109);
+}
+
+#back{
+
+    background-color:black;
+    position: absolute;
+    top: 35%;
+    left: 40px;
+    text-decoration: none;
+}
+
+#back :hover{
+    color: red;
+}
+a{
+    text-decoration: none;
+    background-color: #000;
+    color: whitesmoke;
+}
+.nav{
+    height: 5vh;
+    width: 100%;
+}
+
+.nav ul{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+}
+
+.nav ul li{
+    list-style: none;
+    color: white;
+    border: 5px solid black;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 21px;
+}
+
+.nav ul li:hover{
+    color: red;
+}
+.nav ul li a{
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav ul li a:hover{
+    color: red;
+}
